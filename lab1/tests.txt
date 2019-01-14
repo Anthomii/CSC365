@@ -1,0 +1,89 @@
+CSC 365. Spring 2019
+Lab 1-1 test suite
+
+TC-1
+Tests Requirements: R1
+$ javac schoolsearch.java
+$ java schoolsearch
+expected output: program compiles and runs on lab machines
+
+TC-2
+Tests Requirements: R2
+$ java schoolsearch
+expected output: program runs without command-line parameters and provides user with prompt that will loop until termination
+
+TC-3
+Input: K: HAVIR
+Tests Requirements: R3, E1
+non-existing command, short form command name, existing student
+expected output: INVALID COMMAND. Please try again :(
+
+TC-4
+Input: S: HAVIR Bus X 
+Tests Requirements: R3, E1
+too many arguments, existing command, mixed long/short form command name, existing student
+expected output: INVALID COMMAND. Please try again :(
+
+TC-5
+Input: S: HAVIR
+Tests Requirements: R3, R4
+short form command name, existing student
+expected output: HAVIR, BOBBIE, 2, 108, HAMER, GAVIN
+
+TC-6
+Input: Student: NEMO
+Tests Requirements: R3, R4
+long form command name, non-existing student
+expected output: search not found
+
+TC-7
+Input: S: HAVIR Bus
+Tests Requirements: R3, R5
+mixed long/short form command name, existing student, bus option
+expected output: HAVIR, BOBBIE, 0
+
+TC-8
+Input: Student: NGUYEN B
+Tests Requirements: R3, R5
+mixed long/short form command name, non-existing student, bus option
+expected output: search not found
+
+TC-9
+Input: T: HAMER
+Tests Requirements: R3, R6
+short form command name, existing teacher
+expected output: 
+LIBRANDI, TODD
+HAVIR, BOBBIE
+SARAO, DIEDRA
+VANCOTT, MIKE
+WICINSKY, TERESE
+KOZOLA, BUSTER
+MULLINGS, LEIGHANN
+BUSSMANN, BILLY
+BERBES, DICK
+MULGREW, RANDELL
+TOWLEY, LANE
+
+TC-10
+Input: Teacher: SMITH
+Tests Requirements: R3, R6
+long form command name, non-existing teacher
+expected output: search not found
+
+TC-11
+Input: G: 1
+Tests Requirements: R3, R7
+short form command name, existing grade
+expected output: 
+SAELEE, DANILO
+GARTH, JOHN
+
+TC-12
+Input: Grade: 5
+Tests Requirements: R3, R7
+long form command name, non-existing grade
+expected output: search not found
+
+
+
