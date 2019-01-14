@@ -97,7 +97,7 @@ public class schoolsearch {
    }
 
    public static void displayInfo(ArrayList<Student> students) {
-      TreeMap<String, Integer> map = new TreeMap<String, Integer>();
+      HashMap<String, Integer> map = new HashMap<String, Integer>();
       for (Student s: students) {
          String currGrade = s.attributes[2];
          if (map.containsKey(currGrade)) {
