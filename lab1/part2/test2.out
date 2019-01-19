@@ -1,0 +1,387 @@
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+HAVIR, BOBBIE, 2, 108, HAMER, GAVIN
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+INVALID COMMAND. Please try again :(
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+INVALID COMMAND. Please try again :(
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+HAVIR, BOBBIE, 0
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+LIBRANDI, TODD
+HAVIR, BOBBIE
+SARAO, DIEDRA
+VANCOTT, MIKE
+WICINSKY, TERESE
+KOZOLA, BUSTER
+MULLINGS, LEIGHANN
+BUSSMANN, BILLY
+BERBES, DICK
+MULGREW, RANDELL
+TOWLEY, LANE
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+SAELEE, DANILO
+GARTH, JOHN
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+SCHOENECKER, PHUONG, 6, 109
+FINCHMAN, MATHILDA, 6, 111
+BRODERSEN, HYE, 3, 110
+HAVIR, BOBBIE, 2, 108
+MASSART, ELDON, 4, 105
+GARTH, JOHN, 1, 103
+CREMEANS, RANDOLPH, 6, 109
+KREESE, CARRIE, 6, 109
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+COOKUS, XUAN, 3, 107
+ELHADDAD, SHANTE, 3, 107
+IMMERMAN, DEVIN, 4, 105
+OBREIN, STAN, 6, 111
+CORONADO, DIMPLE, 6, 102
+SARAO, DIEDRA, 2, 108
+EARLY, TORY, 3, 107
+KEMERER, ROSETTA, 6, 102
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+GARTH, JOHN, 0, 3.14, FALKER, ADOLPH
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+SAELEE, DANILO
+GARTH, JOHN
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+WICINSKY, TERESE, 53, 3.22, HAMER, GAVIN
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+SWEDLUND, SHARRI, 55, 3.24, FAFARD, ROCIO
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+SWEDLUND, SHARRI, 55, 3.24, FAFARD, ROCIO
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+KRAKE, VALENTIN, 56, 2.78, GAMBREL, JAE
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+IMMERMAN, DEVIN, 52, 2.78, HANTZ, JED
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+Grade: 1 Average GPA: 3.0
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+Grade: 4 Average GPA: 2.95
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+<Grade>: <Number of Students>
+0: 0
+1: 2
+2: 13
+3: 9
+4: 15
+5: 0
+6: 21
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+<Grade>: <Number of Students>
+0: 0
+1: 2
+2: 13
+3: 9
+4: 15
+5: 0
+6: 21
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]]
+A[verage]: <number>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
