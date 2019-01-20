@@ -58,7 +58,7 @@ public class schoolsearch {
                System.out.print(", " + t.LName + ", " + t.FName);
             }
             else {
-               System.out.println(t.LName + ", " + t.FName);
+               System.out.print(t.LName + ", " + t.FName);
             }
          }
       }
@@ -86,6 +86,25 @@ public class schoolsearch {
             if (t.LName.equals(name)){
                notFound = false;
                System.out.println(s.attributes[0] + ", " + s.attributes[1]);
+            }
+         }
+      }
+      if (notFound)
+         System.out.println("search not found");
+   }
+   //prints all teachers in a grade/classroom
+   public static void printTeachers(ArrayList<Student> students, int key, String target) {
+      boolean notFound = true;
+      ArrayList<String> teacher_match = new ArrayList<String>();
+
+      for (Student s: students) {
+         if (s.attributes[key].equals(target)) {
+            notFound = false;
+            for (Teacher t : s.teachers) {
+               if (!(teacher_match.contains(t.LName))) {
+                  teacher_match.add(t.LName);
+                  System.out.println(t.LName + ", " + t.FName);
+               }
             }
          }
       }
@@ -147,10 +166,11 @@ public class schoolsearch {
       }
    }
 
-   public static void displayInfo(ArrayList<Student> students) {
-      HashMap<String, Integer> map = new HashMap<String, Integer>();
+   public static void displayInfo(ArrayList<Student> students, int printKey) {
+      TreeMap<String, Integer> map = new TreeMap<String, Integer>();
+
       for (Student s: students) {
-         String currGrade = s.attributes[2];
+         String currGrade = s.attributes[printKey];
          if (map.containsKey(currGrade)) {
             map.put(currGrade, map.get(currGrade) + 1);
          }
@@ -158,13 +178,28 @@ public class schoolsearch {
             map.put(currGrade, 1);
          }
       }
-      System.out.println("<Grade>: <Number of Students>");
-      for (int i = 0; i < 7; i++) {
-         if (map.containsKey(Integer.toString(i))) {
-            System.out.println(i + ": " + map.get(Integer.toString(i)));
+      //Info
+      if (printKey == 2) {
+         System.out.println("<Grade>: <Number of Students>");
+         for (int i = 0; i < 7; i++) {
+            if (map.containsKey(Integer.toString(i))) {
+               System.out.println(i + ": " + map.get(Integer.toString(i)));
+            }
+            else {
+               System.out.println(i + ": 0");
+            }
          }
-         else {
-            System.out.println(i + ": 0");
+      }
+      //Enrollments
+      else {
+         System.out.println("<Classroom>: <Number of Students>");
+         for (String key : map.keySet()) {
+            if (map.containsKey(key)) {
+               System.out.println(key + ": " + map.get(key));
+            }
+            else {
+               System.out.println(key + ": 0");
+            }
          }
       }
    }
@@ -207,6 +242,10 @@ public class schoolsearch {
          else if (splitInput.length == 3 && (splitInput[2].equals("L") || splitInput[2].equals("Low"))) {
             searchGPA(students, splitInput[1], 0);
          }
+         //T[eacher]
+         else if (splitInput.length == 3 && (splitInput[2].equals("T") || splitInput[2].equals("Teacher"))) {
+            printTeachers(students, 2, splitInput[1]);
+         }
          else {
             System.out.println("INVALID COMMAND. Please try again :(");
          }
@@ -232,12 +271,37 @@ public class schoolsearch {
       //I[nfo]
       else if ((splitInput[0].equals("I") || splitInput[0].equals("Info"))) {
          if (splitInput.length == 1) {
-            displayInfo(students);
+            displayInfo(students, 2);
          }
          else {
             System.out.println("INVALID COMMAND. Please try again :(");
          }
       }
+      //C[lass] <Number>
+      else if ((splitInput[0].equals("C") || splitInput[0].equals("Class"))) {
+         //S[tudent]
+         if (splitInput.length == 3 && (splitInput[2].equals("S") || splitInput[2].equals("Student"))) {
+            search(students, 3, splitInput[1], new boolean[]{true, true, false, false, false, false}, false);
+         }
+         //T[eacher]
+         else if (splitInput.length == 3 && (splitInput[2].equals("T") || splitInput[2].equals("Teacher"))) {
+            printTeachers(students, 3, splitInput[1]);
+         }
+         else {
+            System.out.println("INVALID COMMAND. Please try again :(");
+         }
+      }
+
+      //E[nrollments]
+      else if ((splitInput[0].equals("E") || splitInput[0].equals("Enrollments"))) {
+         if (splitInput.length == 1) {
+            displayInfo(students, 3);
+         }
+         else {
+            System.out.println("INVALID COMMAND. Please try again :(");
+         }
+      }
+
       else {
          System.out.println("INVALID COMMAND. Please try again :(");
       }
@@ -252,7 +316,7 @@ public class schoolsearch {
          ArrayList<Student> students = new ArrayList<Student>();
          ArrayList<Teacher> teachers = new ArrayList<Teacher>();
          String next;
-         String prompt = "S[tudent]: <lastname> [B[us]]\nT[eacher]: <lastname>\nB[us]: <number>\nG[rade]: <number> [H[igh]|L[ow]]\nA[verage]: <number>\nI[nfo]\nQ[uit]\n\nPlease select an option (Last names must be typed in ALL CAPS): ";
+         String prompt = "S[tudent]: <lastname> [B[us]]\nT[eacher]: <lastname>\nB[us]: <number>\nG[rade]: <number> [H[igh]|L[ow]|T[eacher]]\nA[verage]: <number>\nC[lass]: <Number> <S[tudent]|T[eacher]>\nE[nrollments]\nI[nfo]\nQ[uit]\n\nPlease select an option (Last names must be typed in ALL CAPS): ";
 
          //create teacher objects
          while (teacher_input.hasNextLine()) {
