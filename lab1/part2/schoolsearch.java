@@ -145,13 +145,13 @@ public class schoolsearch {
       }
    }
 
-   public static void averageGPA(ArrayList<Student> students, String grade) {
+   public static void averageGPA(ArrayList<Student> students, String name, int key, int flag) {
       boolean notFound = true;
       double numStudents = 0;
       double currSum = 0;
 
       for (Student s: students) {
-         if (s.attributes[2].equals(grade)){
+         if (s.attributes[key].equals(name)){
             notFound = false;
             currSum += Double.parseDouble(s.attributes[5]);
             numStudents++;
@@ -162,7 +162,48 @@ public class schoolsearch {
       }
       else {
          double avg = Math.round((currSum/numStudents) * 100.0) / 100.0;
-         System.out.println("Grade: " + grade + " Average GPA: " + Double.toString(avg));
+         //Average GPA in Grade
+         if (flag == 1) {
+            System.out.println("Grade: " + name + " Average GPA: " + Double.toString(avg));
+         }
+         //averageGPA in Bus
+         else {
+            System.out.println("Bus: " + name + " Average GPA: " + Double.toString(avg));
+         }
+      }
+   }
+
+   public static void teacherByGPA(ArrayList<Student> students, Teacher t) {
+      int numStudents = 0;
+      double currSum = 0;
+      for (Student s: students) {
+         if (s.teachers.contains(t)) {
+            currSum += Double.parseDouble(s.attributes[5]);
+            numStudents++;
+         }
+      }
+      double avg = Math.round((currSum/numStudents) * 100.0) / 100.0;
+      System.out.println("Average GPA: " + Double.toString(avg) + "      " + t.LName + ", " + t.FName);
+   }
+
+   public static void analyzeGPA(ArrayList<Student> students, int key, int flag, ArrayList<Teacher> teachers) {
+      ArrayList<String> match = new ArrayList<String>();
+      //Average GPA in Grades/Buses
+      if (flag != 0) {
+         for (Student s: students) {
+            if (!match.contains(s.attributes[key])) {
+               match.add(s.attributes[key]);
+            }
+         }
+         Collections.sort(match);
+         for (String s : match) {
+            averageGPA(students, s, key, flag);
+         }
+      }
+      else {
+         for (Teacher t : teachers) {
+            teacherByGPA(students, t);
+         }
       }
    }
 
@@ -204,7 +245,7 @@ public class schoolsearch {
       }
    }
 
-   public static void searchStudents(String input, ArrayList<Student> students) {
+   public static void searchStudents(String input, ArrayList<Student> students, ArrayList<Teacher> teachers) {
       String[] splitInput = input.split("[\\s:]+");
       System.out.println("\n----------RESULTS----------");
       //S[tudent]: <lastname>
@@ -262,7 +303,7 @@ public class schoolsearch {
       //A[verage]: <Number>
       else if ((splitInput[0].equals("A") || splitInput[0].equals("Average"))) {
          if (splitInput.length == 2) {
-            averageGPA(students, splitInput[1]);
+            averageGPA(students, splitInput[1], 2, 1);
          }
          else {
             System.out.println("INVALID COMMAND. Please try again :(");
@@ -291,7 +332,6 @@ public class schoolsearch {
             System.out.println("INVALID COMMAND. Please try again :(");
          }
       }
-
       //E[nrollments]
       else if ((splitInput[0].equals("E") || splitInput[0].equals("Enrollments"))) {
          if (splitInput.length == 1) {
@@ -301,7 +341,24 @@ public class schoolsearch {
             System.out.println("INVALID COMMAND. Please try again :(");
          }
       }
-
+      //GPA:
+      else if (splitInput[0].equals("GPA")) {
+         //G[rade]
+         if (splitInput.length == 2 && (splitInput[1].equals("G") || splitInput[1].equals("Grade"))) {
+            analyzeGPA(students, 2, 1, teachers);
+         }
+         //T[eacher]
+         else if (splitInput.length == 2 && (splitInput[1].equals("T") || splitInput[1].equals("Teacher"))) {
+            analyzeGPA(students, -1, 0, teachers);
+         }
+         //B[us]
+         else if (splitInput.length == 2 && (splitInput[1].equals("B") || splitInput[1].equals("Bus"))) {
+            analyzeGPA(students, 4, 2, teachers);
+         }
+         else {
+            System.out.println("INVALID COMMAND. Please try again :(");
+         }
+      }
       else {
          System.out.println("INVALID COMMAND. Please try again :(");
       }
@@ -316,7 +373,7 @@ public class schoolsearch {
          ArrayList<Student> students = new ArrayList<Student>();
          ArrayList<Teacher> teachers = new ArrayList<Teacher>();
          String next;
-         String prompt = "S[tudent]: <lastname> [B[us]]\nT[eacher]: <lastname>\nB[us]: <number>\nG[rade]: <number> [H[igh]|L[ow]|T[eacher]]\nA[verage]: <number>\nC[lass]: <Number> <S[tudent]|T[eacher]>\nE[nrollments]\nI[nfo]\nQ[uit]\n\nPlease select an option (Last names must be typed in ALL CAPS): ";
+         String prompt = "S[tudent]: <lastname> [B[us]]\nT[eacher]: <lastname>\nB[us]: <number>\nG[rade]: <number> [H[igh]|L[ow]|T[eacher]]\nA[verage]: <number>\nC[lass]: <Number> <S[tudent]|T[eacher]>\nE[nrollments]\nGPA: <G[rade]|T[eacher]|B[us]>\nI[nfo]\nQ[uit]\n\nPlease select an option (Last names must be typed in ALL CAPS): ";
 
          //create teacher objects
          while (teacher_input.hasNextLine()) {
@@ -335,7 +392,7 @@ public class schoolsearch {
          System.out.print(prompt);
          Scanner userInput = new Scanner(System.in);
          while (!(next=userInput.nextLine()).equals("Q") && !next.equals("Quit")) {
-            searchStudents(next, students);
+            searchStudents(next, students, teachers);
             System.out.print("---------------------------\n\n" + prompt);
          }
 
