@@ -1,0 +1,409 @@
+CSC 365. Spring 2019
+Lab 1-1 test suite
+
+TC-1
+Tests Requirements: R1
+$ javac schoolsearch.java
+$ java schoolsearch
+expected output: program compiles and runs on lab machines
+
+TC-2
+Tests Requirements: R2
+$ java schoolsearch
+expected output: program runs without command-line parameters and provides user with prompt that will loop until termination
+
+TC-3
+Input: S: HAVIR
+Tests Requirements: R3, R4
+short form command name, existing student
+expected output: HAVIR, BOBBIE, 2, 108, HAMER, GAVIN
+
+TC-4
+Input: K: HAVIR
+Tests Requirements: R3, E1
+non-existing command, short form command name, existing student
+expected output: INVALID COMMAND. Please try again :(
+
+TC-5
+Input: S: HAVIR Bus X 
+Tests Requirements: R3, E1
+too many arguments, existing command, mixed long/short form command name, existing student
+expected output: INVALID COMMAND. Please try again :(
+
+TC-6
+Input: Student: NEMO
+Tests Requirements: R3, R4
+long form command name, non-existing student
+expected output: search not found
+
+TC-7
+Input: S: HAVIR Bus
+Tests Requirements: R3, R5
+mixed long/short form command name, existing student, bus option
+expected output: HAVIR, BOBBIE, 0
+
+TC-8
+Input: Student: NGUYEN B
+Tests Requirements: R3, R5
+mixed long/short form command name, non-existing student, bus option
+expected output: search not found
+
+TC-9
+Input: T: HAMER
+Tests Requirements: R3, R6
+short form command name, existing teacher
+expected output: 
+LIBRANDI, TODD
+HAVIR, BOBBIE
+SARAO, DIEDRA
+VANCOTT, MIKE
+WICINSKY, TERESE
+KOZOLA, BUSTER
+MULLINGS, LEIGHANN
+BUSSMANN, BILLY
+BERBES, DICK
+MULGREW, RANDELL
+TOWLEY, LANE
+
+TC-10
+Input: Teacher: SMITH
+Tests Requirements: R3, R6
+long form command name, non-existing teacher
+expected output: search not found
+
+TC-11
+Input: G: 1
+Tests Requirements: R3, R7
+short form command name, existing grade
+expected output: 
+SAELEE, DANILO
+GARTH, JOHN
+
+TC-12
+Input: Grade: 5
+Tests Requirements: R3, R7
+long form command name, non-existing grade
+expected output: search not found
+
+TC-13
+Input: B: 0
+Tests Requirements: R8
+short form command name, existing grade
+expected output: 
+
+TC-14
+Input: Bus: 52
+Tests Requirements: R8
+long form command name, existing grade
+expected output: 
+COOKUS, XUAN, 3, 107
+ELHADDAD, SHANTE, 3, 107
+IMMERMAN, DEVIN, 4, 105
+OBREIN, STAN, 6, 111
+CORONADO, DIMPLE, 6, 102
+SARAO, DIEDRA, 2, 108
+EARLY, TORY, 3, 107
+KEMERER, ROSETTA, 6, 102
+
+
+TC-15
+Input: Bus: 5200
+Tests Requirements: R8
+long form command name, non-existing grade
+expected output: search not found
+
+TC-16
+Input: G: 1 H
+Tests Requirements: R9
+short form command name, existing grade
+expected output: 
+GARTH, JOHN, 0, 3.14, FALKER, ADOLPH
+
+TC-16b
+Input: G: 1
+Tests Requirements: R9
+short form command name, existing grade
+expected output: 
+SAELEE, DANILO
+GARTH, JOHN
+
+TC-17
+Input: Grade: 2 H
+Tests Requirements: R9
+short/long form command name, existing grade
+expected output: 
+WICINSKY, TERESE, 53, 3.22, HAMER, GAVIN
+
+TC-18
+Input: G: 3 High
+Tests Requirements: R9
+short/long form command name, existing grade
+expected output: 
+SWEDLUND, SHARRI, 55, 3.24, FAFARD, ROCIO
+
+TC-19
+Input: Grade: 3 High
+Tests Requirements: R9
+long form command name, existing grade
+expected output:
+SWEDLUND, SHARRI, 55, 3.24, FAFARD, ROCIO
+
+TC-20
+Input: Grade: 6 L
+Tests Requirements: R9
+short/long form command name, existing grade
+expected output: 
+KRAKE, VALENTIN, 56, 2.78, GAMBREL, JAE
+
+TC-21
+Input: G: 4 Low
+Tests Requirements: R9
+short form command name, existing grade
+expected output:
+IMMERMAN, DEVIN, 52, 2.78, HANTZ, JED
+
+TC-22
+Input: G: 1000 Low
+Tests Requirements: R9
+short/long form command name, non-existing grade
+expected output: 
+search not found
+
+TC-23
+Input: A: 1
+Tests Requirements: R10
+short form command name, existing grade
+expected output:
+Grade: 1 Average GPA: 3.0
+
+TC-24
+Input: Average: 4
+Tests Requirements: R10
+long form command name, existing grade
+expected output:
+Grade: 4 Average GPA: 2.95
+
+
+TC-25
+Input: A: 100
+Tests Requirements: R10
+short form command name, non-existing grade
+expected output: 
+search not found
+
+TC-26
+Input: I
+Tests Requirements: R11
+long form command name, non-existing grade
+expected output:
+0: 0
+1: 2
+2: 13
+3: 9
+4: 15
+5: 0
+6: 21
+
+TC-27
+Input: Info
+Tests Requirements: R11
+long form command name, non-existing grade
+expected output:
+0: 0
+1: 2
+2: 13
+3: 9
+4: 15
+5: 0
+6: 21
+
+TC-28
+Input: Class: 108 S
+Tests Requirements: NR-1
+long/short form command name, existing class
+Expected output:
+LIBRANDI, TODD
+HAVIR, BOBBIE
+SARAO, DIEDRA
+VANCOTT, MIKE
+WICINSKY, TERESE
+KOZOLA, BUSTER
+MULLINGS, LEIGHANN
+BUSSMANN, BILLY
+BERBES, DICK
+MULGREW, RANDELL
+TOWLEY, LANE
+
+TC-29
+Input: C: 105 Student
+Tests Requirements: NR-1
+long/short form command name, existing class
+Expected output:
+CORKER, CARTER
+IMMERMAN, DEVIN
+RAPOSE, ALONZO
+OGAS, ERVIN
+MASSART, ELDON
+BEX, TAMESHA
+
+TC-30
+Input: Class: 104 T
+Tests Requirements: NR-2
+long/short form command name, existing class
+Expected output:  
+STEIB, GALE
+
+
+TC-31
+Input: C: 106 Teacher
+Tests Requirements: NR-2
+long/short form command name, existing grade
+Expected output:
+BODZIONY, LUZ
+
+TC-32
+Input: G: 6 T
+Tests Requirements: NR-3
+short form command name, existing grade
+Expected output:
+GAMBREL, JAE
+KERBS, BENITO
+NISTENDIRK, NANCY
+BODZIONY, LUZ
+
+TC-33
+Input: G: 4 Teacher
+Tests Requirements: NR-3
+long/short form command name, existing grade
+Expected output:
+HANTZ, JED
+CHIONCHIO, PERLA
+COOL, REUBEN
+
+TC-34
+Input: Grade: 3 T
+Tests Requirements: NR-3
+long/short form command name, existing grade
+Expected output:
+FAFARD, ROCIO
+ALPERT, JONATHAN
+
+TC-35
+Input: Grade: 2 Teacher
+Tests Requirements: NR-3
+long form command name, existing grade
+Expected output:
+STEIB, GALE
+HAMER, GAVIN
+
+TC-36
+Input: E
+Tests Requirements: NR-4
+short form command name
+Expected output:
+101: 1
+102: 5
+103: 2
+104: 2
+105: 6
+106: 2
+107: 7
+108: 11
+109: 5
+110: 2
+111: 9
+112: 8
+
+TC-37
+Input: Enrollments
+Tests Requirements: NR-4
+long form command name, existing grade
+Expected output:
+101: 1
+102: 5
+103: 2
+104: 2
+105: 6
+106: 2
+107: 7
+108: 11
+109: 5
+110: 2
+111: 9
+112: 8
+
+TC-38
+Input: GPA: G
+Tests Requirements: NR-5
+short form command name, existing grade
+Expected output:
+Grade: 1 Average GPA: 3.0
+Grade: 2 Average GPA: 2.95
+Grade: 3 Average GPA: 3.05
+Grade: 4 Average GPA: 2.95
+Grade: 6 Average GPA: 2.98
+
+TC-39
+Input: GPA: Teacher
+Tests Requirements: NR-5
+long form command name, existing teacher
+Expected output:
+Average GPA: 2.91      COOL, REUBEN
+Average GPA: 2.98      KERBS, BENITO
+Average GPA: 3.0      FALKER, ADOLPH
+Average GPA: 2.9      STEIB, GALE
+Average GPA: 2.91      HANTZ, JED
+Average GPA: 3.09      BODZIONY, LUZ
+Average GPA: 3.01      FAFARD, ROCIO
+Average GPA: 2.95      HAMER, GAVIN
+Average GPA: 2.96      GAMBREL, JAE
+Average GPA: 3.17      ALPERT, JONATHAN
+Average GPA: 2.96      NISTENDIRK, NANCY
+Average GPA: 2.99      CHIONCHIO, PERLA
+
+TC-40
+Input: GPA: Bus
+Tests Requirements: NR-5
+long form command name, existing bus route
+Expected output:
+Bus: 0 Average GPA: 2.95
+Bus: 51 Average GPA: 3.02
+Bus: 52 Average GPA: 2.89
+Bus: 53 Average GPA: 3.06
+Bus: 54 Average GPA: 2.94
+Bus: 55 Average GPA: 3.04
+Bus: 56 Average GPA: 2.92
+
+TC-41
+Input: C: 1000 S
+Tests Requirements: NR-1
+short form command name, non-existing class
+Expected output:
+search not found
+
+TC-42
+Input: C: 1000 T
+Tests Requirements: NR-2
+short form command name, non-existing class
+Expected output:
+search not found
+
+TC-43
+Input: G: 1000 T
+Tests Requirements: NR-3
+short form command name, non-existing grade
+Expected output:
+search not found
+
+TC-44
+Input: Q
+Tests Requirements: R12
+long form command name, non-existing grade
+expected output: program exits
+
+TC-45
+Input: Quit
+Tests Requirements: R12
+long form command name, non-existing grade
+expected output: Program exits
+
