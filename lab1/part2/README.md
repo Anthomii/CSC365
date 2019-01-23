@@ -4,7 +4,7 @@ To compile: javac schoolsearch.java
 To run the program: java schoolsearch  
 To run the program with given input file: java schoolsearch < test.in  
 
-Note: test.out contains the output run using test.in (test suite TC-3 to TC-28)  
+Note: test2.out contains the output run using test.in (test suite TC-3 to TC-45)  
   
 For our implementation of NR5, we output to the user an average GPA of students based on the Grade, Teacher or Bus attribute.  
   
