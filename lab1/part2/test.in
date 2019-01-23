@@ -24,4 +24,20 @@ Average: 4
 A: 100
 I
 Info
+Class: 108 S
+C: 105 Student
+Class: 104 T
+C: 106 Teacher
+G: 6 T
+G: 4 Teacher
+Grade: 3 T
+Grade: 2 Teacher
+E
+Enrollments
+GPA: G
+GPA: Teacher
+GPA: Bus
+C: 1000 S
+C: 1000 T
+G: 1000 T
 Q

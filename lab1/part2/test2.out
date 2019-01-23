@@ -1,8 +1,11 @@
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -14,8 +17,11 @@ HAVIR, BOBBIE, 2, 108, HAMER, GAVIN
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -27,8 +33,11 @@ INVALID COMMAND. Please try again :(
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -40,8 +49,11 @@ INVALID COMMAND. Please try again :(
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -53,8 +65,11 @@ search not found
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -66,8 +81,11 @@ HAVIR, BOBBIE, 0
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -79,8 +97,11 @@ search not found
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -102,8 +123,11 @@ TOWLEY, LANE
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -115,8 +139,11 @@ search not found
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -129,8 +156,11 @@ GARTH, JOHN
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -142,8 +172,11 @@ search not found
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -162,8 +195,11 @@ KREESE, CARRIE, 6, 109
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -182,8 +218,11 @@ KEMERER, ROSETTA, 6, 102
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -195,8 +234,11 @@ search not found
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -208,8 +250,11 @@ GARTH, JOHN, 0, 3.14, FALKER, ADOLPH
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -222,8 +267,11 @@ GARTH, JOHN
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -235,8 +283,11 @@ WICINSKY, TERESE, 53, 3.22, HAMER, GAVIN
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -248,8 +299,11 @@ SWEDLUND, SHARRI, 55, 3.24, FAFARD, ROCIO
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -261,8 +315,11 @@ SWEDLUND, SHARRI, 55, 3.24, FAFARD, ROCIO
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -274,8 +331,11 @@ KRAKE, VALENTIN, 56, 2.78, GAMBREL, JAE
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -287,8 +347,11 @@ IMMERMAN, DEVIN, 52, 2.78, HANTZ, JED
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -300,8 +363,11 @@ search not found
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -313,8 +379,11 @@ Grade: 1 Average GPA: 3.0
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -326,8 +395,11 @@ Grade: 4 Average GPA: 2.95
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -339,8 +411,11 @@ search not found
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -359,8 +434,11 @@ Please select an option (Last names must be typed in ALL CAPS):
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
@@ -379,8 +457,334 @@ Please select an option (Last names must be typed in ALL CAPS):
 S[tudent]: <lastname> [B[us]]
 T[eacher]: <lastname>
 B[us]: <number>
-G[rade]: <number> [H[igh]|L[ow]]
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
 A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+LIBRANDI, TODD
+HAVIR, BOBBIE
+SARAO, DIEDRA
+VANCOTT, MIKE
+WICINSKY, TERESE
+KOZOLA, BUSTER
+MULLINGS, LEIGHANN
+BUSSMANN, BILLY
+BERBES, DICK
+MULGREW, RANDELL
+TOWLEY, LANE
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+CORKER, CARTER
+IMMERMAN, DEVIN
+RAPOSE, ALONZO
+OGAS, ERVIN
+MASSART, ELDON
+BEX, TAMESHA
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+STEIB, GALE
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+BODZIONY, LUZ
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+GAMBREL, JAE
+KERBS, BENITO
+NISTENDIRK, NANCY
+BODZIONY, LUZ
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+HANTZ, JED
+CHIONCHIO, PERLA
+COOL, REUBEN
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+FAFARD, ROCIO
+ALPERT, JONATHAN
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+STEIB, GALE
+HAMER, GAVIN
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+<Classroom>: <Number of Students>
+101: 1
+102: 5
+103: 2
+104: 2
+105: 6
+106: 2
+107: 7
+108: 11
+109: 5
+110: 2
+111: 9
+112: 8
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+<Classroom>: <Number of Students>
+101: 1
+102: 5
+103: 2
+104: 2
+105: 6
+106: 2
+107: 7
+108: 11
+109: 5
+110: 2
+111: 9
+112: 8
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+Grade: 1 Average GPA: 3.0
+Grade: 2 Average GPA: 2.95
+Grade: 3 Average GPA: 3.05
+Grade: 4 Average GPA: 2.95
+Grade: 6 Average GPA: 2.98
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+Average GPA: 2.91      COOL, REUBEN
+Average GPA: 2.98      KERBS, BENITO
+Average GPA: 3.0      FALKER, ADOLPH
+Average GPA: 2.9      STEIB, GALE
+Average GPA: 2.91      HANTZ, JED
+Average GPA: 3.09      BODZIONY, LUZ
+Average GPA: 3.01      FAFARD, ROCIO
+Average GPA: 2.95      HAMER, GAVIN
+Average GPA: 2.96      GAMBREL, JAE
+Average GPA: 3.17      ALPERT, JONATHAN
+Average GPA: 2.96      NISTENDIRK, NANCY
+Average GPA: 2.99      CHIONCHIO, PERLA
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+Bus: 0 Average GPA: 2.95
+Bus: 51 Average GPA: 3.02
+Bus: 52 Average GPA: 2.89
+Bus: 53 Average GPA: 3.06
+Bus: 54 Average GPA: 2.94
+Bus: 55 Average GPA: 3.04
+Bus: 56 Average GPA: 2.92
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
+I[nfo]
+Q[uit]
+
+Please select an option (Last names must be typed in ALL CAPS): 
+----------RESULTS----------
+search not found
+---------------------------
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname>
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number>
+C[lass]: <Number> <S[tudent]|T[eacher]>
+E[nrollments]
+GPA: <G[rade]|T[eacher]|B[us]>
 I[nfo]
 Q[uit]
 
