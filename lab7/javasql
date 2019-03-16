@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export CLASSPATH=$CLASSPATH:~/mysql-connector-java-8.0.15/mysql-connector-java-8.0.15.jar:.
+export HP_JDBC_URL=jdbc:mysql://db.labthreesixfive.com/winter2019?autoReconnect=true\&useSSL=false
+export HP_JDBC_USER=
+export HP_JDBC_PW=
+
+javac HastyPastry.java
+
+java $@
